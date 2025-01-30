@@ -1,0 +1,37 @@
+* {
+  font-family: "Quicksand", serif;
+  font-weight: 300;
+  text-align: center;
+}
+
+/* HEADER */
+
+#logo {
+  font-weight: 600;
+  font-size: 1.2rem;
+  border: 1px solid black;
+  display: inline;
+  padding: 5px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a {
+  color: rgb(200, 106, 5);
+}
+
+/* MAIN */
+
+.main-img {
+  width: 30%;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 3rem;
+  border-top: 1px solid black;
+}
