@@ -9,7 +9,7 @@
 #logo {
   font-weight: 600;
   font-size: 1.2rem;
-  border: 1px solid black;
+  border: 1px solid rgb(0, 0, 0);
   display: inline;
   padding: 5px;
 }
@@ -20,14 +20,35 @@ ul {
 }
 
 a {
-  color: rgb(200, 106, 5);
+  color: rgb(234, 124, 6);
 }
 
 /* MAIN */
 
 .main-img {
-  width: 30%;
+    width: 30%;
+  }
+
+/* CATEGORY SECTION */
+
+.category-container {
+  display: grid;
+  grid-template-areas: 
+  'img img img'
+  'img img img';
+
 }
+
+figure {
+  margin-left: 0;
+  grid-area: img;
+}
+
+.category-image {
+  width: 100%;
+}
+
+
 
 /* FOOTER */
 
