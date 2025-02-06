@@ -52,17 +52,16 @@ figure {
   width: 100%;
 }
 
-@media screen and (min-width: 508px) {
+
+@media screen and (min-width: 510px) {
   .category-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media screen and (min-width: 750px) {
-  .category-container {
-    grid-template-columns: repeat(3, 1fr);
-  }
+.Model {
+  width: 80%;
 }
 
 /* FOOTER */
