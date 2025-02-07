@@ -52,7 +52,6 @@ figure {
   width: 100%;
 }
 
-
 @media screen and (min-width: 510px) {
   .category-container {
     display: grid;
@@ -69,4 +68,22 @@ figure {
 footer {
   margin-top: 3rem;
   border-top: 1px solid black;
+}
+
+/* ANIMATION */
+
+div {
+  background-color: darkslategrey;
+  width: 500px;
+  height: 500px;
+  margin-left: 200px;
+  margin-top: 200px;
+  border-radius: 50%;
+}
+
+@keyframes shake {
+  25% {
+    transform: scale(1.2);
+    
+  }
 }
