@@ -4,6 +4,18 @@
   text-align: center;
 }
 
+:root {
+  --base-color: white; 
+  --base-variant: white; 
+  --text-color: black;
+}
+
+.darkmode {
+  --base-color: black; 
+  --base-variant: black; 
+  --text-color: white;
+}
+
 /* HEADER */
 
 #logo {
@@ -34,6 +46,7 @@ a {
 li {
   margin-left: 0;
 }
+
 
 /* MAIN */
 
