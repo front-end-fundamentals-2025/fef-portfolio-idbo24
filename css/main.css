@@ -35,7 +35,6 @@ li {
   margin-left: 0;
 }
 
-
 /* MAIN */
 
 .main-img {
@@ -157,7 +156,7 @@ div {
 
 /* DARK MODE TOGGLE */
 
-i{
+i {
   font-size: 35px;
   cursor: pointer;
   position: absolute;
