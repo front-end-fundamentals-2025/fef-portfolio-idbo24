@@ -81,6 +81,7 @@ div {
   border-radius: 90%;
   animation-name: shake;
   animation-duration: 3s;
+  color: black;
 }
 
 @keyframes shake {
@@ -134,6 +135,7 @@ div {
   animation-iteration-count: 1;
   animation-direction: normal;
   animation-fill-mode: none;
+  color: black;
 }
 
 @keyframes theAnimation {
