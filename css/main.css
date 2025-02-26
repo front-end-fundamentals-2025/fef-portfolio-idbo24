@@ -76,8 +76,6 @@ div {
   background-color: rgb(240, 237, 232);
   width: 130px;
   height: 65px;
-  margin-left: 640px;
-  margin-top: 30px;
   border-radius: 90%;
   animation-name: shake;
   animation-duration: 3s;
